@@ -10,6 +10,7 @@
     "dist"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "prebuild": "rimraf dist",
     "build": "tsc -p tsconfig.build.json",
     "lint": "eslint --color --ext .ts src/ test/",
